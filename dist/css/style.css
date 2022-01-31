@@ -679,6 +679,14 @@ h4 {
   font-weight: 400;
   line-height: 1.5;
 }
+@media (any-hover: hover) {
+  .footer-bottom__link {
+    transition: color 0.3s ease 0s;
+  }
+  .footer-bottom__link:hover {
+    color: #B15D67;
+  }
+}
 
 .footer-decor {
   top: -4% !important;
@@ -1392,6 +1400,17 @@ h4 {
   line-height: 1.3333333333;
   letter-spacing: -0.9px;
   font-weight: 600;
+}
+@media (any-hover: hover) {
+  .body-ir__img {
+    overflow: hidden;
+  }
+  .body-ir__img img {
+    transition: transform 0.4s ease 0s;
+  }
+  .body-ir__img:hover img {
+    transform: scale(1.1, 1.1);
+  }
 }
 .body-ir__title {
   font-weight: 600;
